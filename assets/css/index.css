@@ -1,0 +1,10 @@
+html, body {
+    height:100%;
+}
+header{
+    width: 100%
+}
+h1{
+    width:100%;
+    text-align:center;
+}
