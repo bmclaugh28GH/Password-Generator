@@ -24,12 +24,22 @@ h1{
 
 }
 .buttonBoundary{
-    width:50%; 
-    float: left; 
+    width:60%; 
+    height:40px;
+    position:relative; 
+    margin: 0 auto;
+    /*border: solid 1px;*/ 
 }
-#generate, #copy {
-    margin-left: 40%;    
+#generate {
+    position:absolute;; 
+    left: 16%; 
 }
+
+#copy {
+    position:absolute;
+    right: 16%; 
+}
+
 #copy, #generate {
     background-color: darkslategray;
     padding: .5em;
@@ -38,20 +48,21 @@ h1{
     border-radius: 6px;
     color: #fff;
     font-family: 'Oswald';
-    font-size: 15px;
+    /*font-size: 1.5vw;*/
+    font-size: 15px; 
     text-decoration: none;
     border: none;
 }
 
 #copy:hover {
- border: none;
- background: blue;
- box-shadow: 0px 0px 1px #777;
+    border: none;
+    background: blue;
+    box-shadow: 0px 0px 1px #777;
 }
 #generate:hover {
- border: none;
- background: blue;
- box-shadow: 0px 0px 1px #777;
+    border: none;
+    background: blue;
+    box-shadow: 0px 0px 1px #777;
 }
 
 /***********************************************/
@@ -59,10 +70,15 @@ h1{
 @media screen and (max-width:480px)
 {
     .buttonBoundary{
-        clear: both; 
         padding-left:0%;
         margin-left:10%;
-        width:30%;
+        width:60%;
+        height:80px; 
+    }
+    #copy, #generate{
+        padding-left:0%;
+        margin-left:22%;
+        position: static;
     }
 
 }
