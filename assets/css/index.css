@@ -28,7 +28,7 @@ h1{
     float: left; 
 }
 #generate, #copy {
-    margin-left: 35%;    
+    margin-left: 40%;    
 }
 #copy, #generate {
     background-color: darkslategray;
@@ -52,4 +52,17 @@ h1{
  border: none;
  background: blue;
  box-shadow: 0px 0px 1px #777;
+}
+
+/***********************************************/
+
+@media screen and (max-width:480px)
+{
+    .buttonBoundary{
+        clear: both; 
+        padding-left:0%;
+        margin-left:10%;
+        width:30%;
+    }
+
 }
