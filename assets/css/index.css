@@ -11,6 +11,32 @@ h1{
     width:100%;
     text-align:center;
 }
+#lengthInput, #charTypeInput {
+    font-weight: bold;
+    font-size: larger;
+}   
+
+#charTypeInput{
+    margin-top: 4px; 
+    margin-bottom: 4px; 
+    margin-left:20%;
+} 
+#lengthInput, #pwdLength, #pwdLengthInfo {
+    margin-top: 4px; 
+    margin-bottom: 4px; 
+    margin-left:20%;
+    float:left;
+}
+#pwdLength, #pwdLengthInfo {
+    padding-top:2px;
+    margin-left:3px;
+}
+.clear {
+    clear:both;
+}
+#cbx_uc, #cbx_lc, #cbx_sc, #cbx_nc{
+    margin-left:20%;
+}
 #pwd{
     width: 60%; 
     height: 30%;
